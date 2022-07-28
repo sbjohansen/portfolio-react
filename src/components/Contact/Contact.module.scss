@@ -1,0 +1,79 @@
+@import '../../styles/settings.scss';
+
+.sectionContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10vh;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), $color-section-purple);
+  padding-bottom: 100px;
+}
+
+.sectionContact h1,
+h2 {
+  color: white;
+}
+
+.headline {
+  text-align: left;
+  align-items: center;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.connectframe {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(95, 95, 95, 0.4);
+  border-radius: 5px;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.connectIcon {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding: 0 10px;
+}
+
+.connectText {
+  font-size: 20px;
+  text-align: center;
+}
+
+.button {
+  width: 80px;
+}
+
+.inputContact {
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  color: white;
+  border-style: none;
+  border-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+.textAreaContact {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 200px;
+  border-radius: 10px;
+  color: white;
+  border-style: none;
+  border-color: white;
+  padding: 5px;
+  resize: none;
+}
+
+.labelContact {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}

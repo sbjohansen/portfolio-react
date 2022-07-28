@@ -1,0 +1,36 @@
+@import '../../styles/settings.scss';
+
+.sectionSkills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), $color-section-purple);
+  padding-bottom: 100px;
+}
+
+.skills {
+  align-items: center;
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.skillsDescription {
+  justify-items: center;
+  color: #f29f05;
+  font-size: 18px;
+}
+
+.icon {
+  text-align: center;
+  font-size: 100px;
+  color: #f29f05;
+}
+
+.icontext {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: 600;
+}
